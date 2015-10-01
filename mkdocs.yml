@@ -1,0 +1,5 @@
+site_name: cytoscape3
+pages:
+- Home: index.md
+- Launching_Cytoscape: Launching_Cytoscape.md
+theme: readthedocs
