@@ -9,4 +9,5 @@ pages:
 - Supported Network File Formats: Supported_Network_File_Formats.md
 - Node and Edge Column Data: Node_and_Edge_Column_Data.md
 - Ontology and Annotation Import: Ontology_and_Annotation_Import.md
+- Column Data Functions and Equations: Column_Data_Functions_and_Equations.md
 theme: readthedocs
