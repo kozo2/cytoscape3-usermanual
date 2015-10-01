@@ -10,4 +10,19 @@ pages:
 - Node and Edge Column Data: Node_and_Edge_Column_Data.md
 - Ontology and Annotation Import: Ontology_and_Annotation_Import.md
 - Column Data Functions and Equations: Column_Data_Functions_and_Equations.md
+- Finding and Filtering Nodes and Edges: Finding_and_Filtering_Nodes_and_Edges.md
+- Navigation and Layout: Navigation_and_Layout.md
+- Styles: Styles.md
+- App Manager: App_Manager.md
+- Command Tool: Command_Tool.md
+- Merge: Merge.md
+- NetworkAnalyzer: NetworkAnalyzer.md
+- Cytoscape Preferences: Cytoscape_Preferences.md
+- Linkout: Linkout.md
+- Panels: Panels.md
+- Rendering Engine: Rendering_Engine.md
+- Publish Your Data: Publish_Your_Data.md
+- Cytoscape.js and Cytoscape: Cytoscape.js_and_Cytoscape.md
+- Programmatic Access to Cytoscape Features (Scripting): Programmatic_Access_to_Cytoscape_Features_.28Scripting.29.md
+- Cytoscape Privacy Policy: Cytoscape_Privacy_Policy.md
 theme: readthedocs
