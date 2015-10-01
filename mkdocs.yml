@@ -1,5 +1,12 @@
 site_name: cytoscape3
 pages:
 - Home: index.md
-- Launching_Cytoscape: Launching_Cytoscape.md
+- Launching Cytoscape: Launching_Cytoscape.md
+- Command Line Arguments: Command_Line_Arguments.md
+- Quick Tour of Cytoscape: Quick_Tour_of_Cytoscape.md
+- Creating Networks: Creating_Networks.md
+- Nested Networks: Nested_Networks.md
+- Supported Network File Formats: Supported_Network_File_Formats.md
+- Node and Edge Column Data: Node_and_Edge_Column_Data.md
+- Ontology and Annotation Import: Ontology_and_Annotation_Import.md
 theme: readthedocs
