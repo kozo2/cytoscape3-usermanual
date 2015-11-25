@@ -400,6 +400,18 @@ set used in this section is created by Database Center for Life Science
 (DBCLS) and is distributed under Creative Commons License ([CC BY
 2.1.](http://creativecommons.org/licenses/by/2.1/jp/deed.en))
 
+### Mapping Remote and Local Image Files to the Nodes in Network
+
+You can map remote and local image files to the nodes in network.
+As an example, here we map a image in [10 Minutes to pandas](http://pandas.pydata.org/pandas-docs/stable/10min.html) on the galFiltered.cys network.
+
+- ![series_plot_basic.png](http://pandas.pydata.org/pandas-docs/stable/_images/series_plot_basic.png)
+- To map this remote image to a node on the network, create new single **String** column for **Passthrough Mapping** to **Node Table** (here, we named it **pandasplot**).
+- Fill **PCK1**'s pandasplot cell with **http://pandas.pydata.org/pandas-docs/stable/_images/series_plot_basic.png**
+- Select **Node** style and set **Custom Graphics 3** as **Column -> pandasplot**, **Mapping Type -> Passthrough Mapping**
+- Now you can see ![](./images/pandasplot.png)
+- In case of mapping remote image it may takes some time to reflect.
+
 ### Managing Images with the Custom Graphics Manager
 
 The **Custom Graphics Manager** is available under **View → Open Custom
