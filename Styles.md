@@ -402,6 +402,7 @@ set used in this section is created by Database Center for Life Science
 
 ### Mapping Remote and Local Image Files to the Nodes in Network
 
+#### Mapping a Remote Image File to a Node
 You can map remote and local image files to the nodes in network.
 As an example, here we map a image in [10 Minutes to pandas](http://pandas.pydata.org/pandas-docs/stable/10min.html) on the galFiltered.cys network.
 
@@ -411,6 +412,13 @@ As an example, here we map a image in [10 Minutes to pandas](http://pandas.pydat
 - Select **Node** style and set **Custom Graphics 3** as **Column -> pandasplot**, **Mapping Type -> Passthrough Mapping**
 - Now you can see ![](./images/pandasplot.png)
 - In case of mapping remote image it may takes some time to reflect.
+
+#### Mapping a Local Image File to a Node
+In case of mapping local image, you need to add **file:///** prefix to the local image file path.
+
+- save http://pandas.pydata.org/pandas-docs/stable/_images/series_plot_basic.png as a local file. Here we save it /Users/foo/Downloads/series_plot_basic.png or C:¥Users¥foo¥Downloads¥series_plot_basic.png
+- Fill **PCK1**'s pandasplot cell with **file:///Users/foo/Downloads/series_plot_basic.png** or **file://C:¥Users¥foo¥Downloads¥series_plot_basic.png**
+- same as *Mapping a Remote Image File to a Node* 
 
 ### Managing Images with the Custom Graphics Manager
 
